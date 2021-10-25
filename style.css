@@ -60,6 +60,13 @@ img {
   font-size: 50px;
   margin: 5px 0;
 }
+.text-4 {
+  font-size: 30px;
+}
+.about-p {
+  font-size: 50px;
+  margin: 5px 0;
+}
 .about-p:hover {
   color: rgb(123, 63, 184);
   transition: 1s;
@@ -192,7 +199,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 1rem;
 }
 /* Small screens */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .navbar {
     bottom: 0;
     width: 100vw;
@@ -226,15 +233,17 @@ body::-webkit-scrollbar-thumb {
   .text-3 {
       font-size: 1.5rem;
   }
+  
   .home-content-about h1 {
       font-size: 3rem;
       margin-bottom: -1rem;
+      margin-left: 4rem;
   }
   .home-content-about p {
       margin-top: 3.5rem;
   }
   .about-p {
-      width: 20rem;
+      width: 23rem;
       font-size: 1.2rem; 
   }
   .navbar:hover .link-text {
@@ -259,7 +268,7 @@ body::-webkit-scrollbar-thumb {
   
 }
 /* Large screens */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
   .navbar {
     top: 0;
     width: 6rem;
@@ -289,15 +298,21 @@ body::-webkit-scrollbar-thumb {
   .text-3 {
       margin-left: 5rem;
   }
-  .about-p {
-      margin-top: 5rem;
-      margin-bottom: 3rem;
-      font-size: 2rem;
-      margin-left: 5rem;
+  .text-4 {
+    margin-left: 15rem;
+    margin-right: 3rem;
   }
+
   .about-title {
-      margin-top: 5rem;
-        color: rgb(123, 63, 184);
+      
+      color: rgb(123, 63, 184);
+      
+      margin: 3rem 0 3rem 18rem;
+    
+    }
+    .home-content-about {
+      margin-left: 50rem;
+
     }
 }
 /* Welcome Section */
@@ -327,6 +342,11 @@ body::-webkit-scrollbar-thumb {
   border-top: 4px solid rgb(123, 63, 184);
   
 }
+
+.text-4 {
+  margin-bottom: 3rem;
+}
+
 
 
 /* End About Section */
